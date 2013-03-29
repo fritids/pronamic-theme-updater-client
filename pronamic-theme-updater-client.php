@@ -3,7 +3,7 @@
 // Start the updater, set whats required, set to dev environment
 $theme_updater = new Pronamic_Theme_Updater();
 $theme_updater
-		->set_api_url( 'http://api.pronamic.nl/pronamic-theme-updater-server.php' )
+		->set_api_url( 'http://themes.pronamic.nl/1.0/' )
 		->set_user_agent( 'PronamicWordpressThemeUpdate' )
 		->dev_environment();
 
